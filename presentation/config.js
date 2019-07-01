@@ -1,4 +1,4 @@
 module.exports = {
-  title: 'React Hooks',
+  title: 'CSS Advanced',
   port: process.env.PORT || 3000
 };
