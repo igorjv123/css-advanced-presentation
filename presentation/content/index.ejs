@@ -1,0 +1,162 @@
+  <section>
+    <section>
+        <h2>Advanced <span class="text-yellow">CSS</span>. Cross-browser <span class="text-yellow">CSS</span></h2>        
+        <img class="b-h" src="https://cdn.shopify.com/s/files/1/2653/5656/products/MU-_-WHI-SD4759-zoomed_1024x1024@2x.jpg?v=1547828800" alt="">
+    </section>
+  </section>
+  <section>
+    <h2><span class="text-yellow">CSS</span> selectors</h2>
+    <section>
+      <img class="b-h" src="https://memegenerator.net/img/instances/75799647.jpg" alt="">
+    </section>
+    <section>
+      <h1><span class="text-yellow">Specifics</span> </h1>
+    </section>
+    <section>
+      <img class="b-h" src="https://habrastorage.org/getpro/habr/comment_images/711/68c/478/71168c4780ebd1b7888f75ecdb474494.jpg" alt="">
+    </section>
+    <section>
+        <h1><span class="text-yellow">CSS</span> Combinators</h1>
+    </section>
+    <section>
+      <pre>
+        <code class="css" data-trim contenteditable>
+            div, p // Selects all &lt;div&gt; elements and all &lt;p&gt; elements
+            div p // Selects all &lt;p&gt; elements inside &lt;div&gt; elements
+            div > p // Selects all &lt;p&gt; elements where the parent is a &lt;div&gt; element
+            div + p // Selects all &lt;p&gt; elements that are placed immediately after &lt;div&gt; elements
+            p ~ ul // Selects every &lt;&gt; element that are preceded by a &lt;p&gt; element
+        </code>
+      </pre>
+    </section>
+  </section>
+  <section>
+    <h2><span class="text-yellow">CSS</span> animation</h2>
+    <section style="display: flex; justify-content: center;">
+      <div class="animation-demo">
+      </div>
+      <a href="https://codepen.io/igorjv123/pen/XLEeWe?editors=1100" target="_blank">Code is here</a>
+    </section>
+    <section>
+      <img src="images/animation-support.jpg" class="m-h" alt="aaa">
+    </section>
+    <section>
+      <h1><span class="text-yellow">Transition</span></h1>
+    </section>
+    <section>
+      <pre>
+        <code class="css" data-trim contenteditable>
+            div {
+              transition: width 2s, height 4s;
+            }
+        </code>
+      </pre>
+    </section>
+    <section>
+        transition-timing-function
+        <pre>
+            <code class="css" data-trim contenteditable>
+                ease //specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+                linear // specifies a transition effect with the same speed from start to end
+                ease-in // specifies a transition effect with a slow start
+                ease-out // specifies a transition effect with a slow end
+                ease-in-out // specifies a transition effect with a slow start and end
+                cubic-bezier(n,n,n,n) // lets you define your own values in a cubic-bezier function
+            </code>
+          </pre>
+    </section>
+    <section>
+        <h1><span class="text-yellow">CSS</span> transforms</h1>          
+        <p>allow you to move, rotate, scale, and skew elements</p>
+    </section>
+    <section>
+        <pre>
+            <code class="css" data-trim contenteditable>
+                div {
+                  -ms-transform: rotate(20deg); /* IE 9 */
+                  -webkit-transform: rotate(20deg); /* Safari prior 9.0 */
+                  transform: rotate(20deg); /* Standard syntax */
+                }
+            </code>
+          </pre>       
+    </section>
+    <section>
+      <pre>
+        <code class="css" data-trim contenteditable>
+            translate()
+            rotate()
+            scaleX()
+            scaleY()
+            scale()
+            skewX()
+            skewY()
+            skew()
+            matrix()
+        </code>
+      </pre>
+    </section>
+    <section>
+      <div class="transform-demo"></div>
+    </section>
+    <section>
+      <pre>
+          <code class="css" data-trim contenteditable>
+              .transform-demo{
+                height: 500px;
+                width: 500px;
+                background: yellow;
+                transition: transform 2s ease-in-out;
+              }
+              .transform-demo:hover{
+                transform: rotate(360deg)
+              }
+          </code>
+        </pre>
+    </section>
+    <section>
+      <h1><span class="text-yellow">Gradients</span></h1>
+    </section>
+    <section>
+      <h2><span class="text-yellow">CSS defines</span> two types of gradients:</h2>
+      <ul>
+        <li>Linear Gradients (goes down/up/left/right/diagonally)</li>
+        <li>Radial Gradients (defined by their center)</li>
+      </ul>
+    </section>
+    <section>
+        <div id="grad">
+
+        </div>
+        <pre>
+          <code class="css" data-trim contenteditable>
+              #grad {
+                background-image: linear-gradient(to bottom right, red, yellow);
+              }
+          </code>
+        </pre>
+        
+    </section>
+  </section>
+  <section>
+      <h2><span class="text-yellow">Cross</span>-browser</h2>
+      <section>
+        <img src="http://impaler.github.io/cross-browser-css-scss-slides/images/my-css-works.jpg" alt="">
+      </section>
+      <section>
+        <h1><span class="text-yellow">CSS</span> vendor prefixes</h1>
+      </section>
+      <section>
+        <img src="images/vendors-1.jpg" alt="">
+      </section>
+      <section>
+          <img src="images/vendors-2.jpg" alt="">
+        </section>
+    </section>
+<section>
+  <section>
+      <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8dfc9ac6-7677-4770-9c98-5dd1eee56e6f/css-important-meme.png" alt="">
+  </section>
+  <section>
+    <h1><span class="text-yellow">Questions?</span></h1>
+  </section>
+</section>

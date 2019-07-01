@@ -1,0 +1,103 @@
+code {
+  font-size: 21px !important;
+}
+
+iframe {
+  width: 320px;
+  height: 240px;
+}
+
+dl {
+  display: block !important;
+}
+
+img {
+  background-color: white !important;
+  /* max-height: 80vh !important; */
+  box-shadow: none !important;
+  border: 20px white solid !important;
+  object-fit: contain;
+}
+
+img.blue {
+  background-color: blue !important;
+  border: 20px blue solid !important;
+}
+
+.reveal {
+  font-size: 36px !important;
+}
+
+a i {
+  opacity: 0.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none !important;
+}
+.img-wrapper {
+  width: 100%;
+}
+.s-h {
+  height: 50vh;
+}
+.m-h {
+  height: 60vh;
+}
+.b-h {
+  height: 70vh;
+}
+.l-h {
+  height: 45vh;
+}
+.text-yellow {
+  color: rgb(255, 255, 5);
+}
+
+.animation-demo { 
+  width: 50vh;
+  height: 50vh;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@-webkit-keyframes example {
+  from {
+    background-color: white;
+    border-radius: 0;
+  }
+  to {
+    background-color: yellow;
+    border-radius: 50%;
+  }
+}
+
+@keyframes example {
+  from {
+    background-color: white;
+    border-radius: 0;
+  }
+  to {
+    background-color: yellow;
+    border-radius: 50%;
+  }
+}
+
+.transform-demo{
+  height: 500px;
+  width: 500px;
+  background: yellow;
+  transition: transform 2s ease-in-out;
+}
+.transform-demo:hover{
+  transform: rotate(360deg)
+}
+#grad {
+  height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
